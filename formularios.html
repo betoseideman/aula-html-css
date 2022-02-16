@@ -31,12 +31,43 @@
                     <label for="ctrl-password">Senha</label>
                     <input id="ctrl-password" name="password" type="password" placeholder="Digite a senha">
                 </div>
+                <div>
+                    <label for="ctrl-city">Cidade</label>
+                    <select name="city" id="ctrl-city">
+                        <option value="1">São Paulo</option>
+                        <option value="2">Rio de Janeiro</option>
+                        <option value="3">Curitiba</option>
+                        <option value="4">Manaus</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="ctrl-level">Escolaridade</label>
+                    <div id="ctrl-level">
+                        <input type="radio" name="level" id="ctrl-lavel-1">
+                        <label for="ctrl-lavel-1">Fundamental</label>
+                        <input type="radio" name="level" id="ctrl-lavel-2">
+                        <label for="ctrl-lavel-2">Médio</label>
+                        <input type="radio" name="level" id="ctrl-lavel-3">
+                        <label for="ctrl-lavel-3">Superior</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="ctrl-languages">Linguagens que voçê conhece</label>
+                    <div id="ctrl-languages">
+                        <input itemid="ctrl-languages-java" name="language1" type="checkbox">
+                        <label for="ctrl-languages-java">Java</label>
+                        <input itemid="ctrl-languages-python" name="language2" type="checkbox">
+                        <label for="ctrl-languages-python">Python</label>
+                        <input itemid="ctrl-languages-csharp" name="language3" type="checkbox">
+                        <label for="ctrl-languages-csharp">C#</label>
+                        <input itemid="ctrl-languages-c#" name="language4" type="checkbox">
+                        <label for="ctrl-languages-javascript">JavaScript</label>
+                    </div>
+                </div>
                 <input type="submit" value="Enviar">
-                <input type="reset" >
+                <input type="reset">
             </form>
         </section>
     </main>
-
 </body>
-
 </html>
